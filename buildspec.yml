@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 phases:
   build:
@@ -10,5 +10,5 @@ phases:
         - echo Build Completed Successfully
 artifacts:
   files:
-    - 'target/helloSpringBootApplication.jar'
+    - 'target/*.jar'
   discard-paths: yes
